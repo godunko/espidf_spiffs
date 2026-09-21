@@ -1,0 +1,21 @@
+name = "espidf_spiffs"
+version = "0.1.0-dev"
+website = "https://github.com/godunko/espidf"
+description = "A0B: Ada/ESP-IDF: SPIIFS Bindings"
+long-description = """
+Ada language bindings for the ESP-IDF SPIFFS (SPI Flash File System) component, providing a high-level, safe Ada interface for managing micro-filesystems on ESP32 microcontrollers.
+"""
+
+authors = ["Vadim Godunko"]
+maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
+maintainers-logins = ["godunko"]
+licenses = "Apache-2.0 WITH LLVM-exception"
+tags = ["a0b", "embedded", "esp", "esp32", "espidf", "spiffs"]
+
+[configuration]
+generate_ada = false
+generate_c = false
+generate_gpr = true
+
+[[depends-on]]
+espidf = "*"
