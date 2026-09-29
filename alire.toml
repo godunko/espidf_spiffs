@@ -1,5 +1,5 @@
 name = "espidf_spiffs"
-version = "0.1.0-dev"
+version = "0.1.0"
 website = "https://github.com/godunko/espidf_spiffs"
 description = "Ada/ESP-IDF: SPIFFS filesystem bindings"
 long-description = """
